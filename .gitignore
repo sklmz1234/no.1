@@ -1,0 +1,44 @@
+# === Go ===
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (if you use vendoring, comment out the next line)
+# vendor/
+
+# === Build output ===
+/bin/
+/dist/
+/build/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Env & secrets ===
+.env
+.env.local
+*.pem
+*.key
+
+# === Logs ===
+*.log
+
+# === OS ===
+.DS_Store
+Desktop.ini
